@@ -11,5 +11,9 @@
     },
     "pulumi": {
         "resource": true
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/plumguide/pulumi-argo-crds.git"
     }
 }

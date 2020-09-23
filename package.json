@@ -1,11 +1,10 @@
 {
     "name": "@plumguide/pulumi-argo-crds",
-    "version": "2.11.1",
+    "version": "2.11.2",
     "author": "ergunozyurt",
     "description": "Argo Workflows full CRDs generated with crd2pulumi",
     "scripts": {
-        "build": "tsc && cp package.json ./bin",
-        "publish": "npm run build && cd ./bin && npm publish --access public"
+        "build": "tsc && cp package.json ./bin && cp README.md ./bin"
     },
     "peerDependencies": {
         "@pulumi/pulumi": "latest"

@@ -1,6 +1,6 @@
 {
     "name": "@plumguide/pulumi-argo-crds",
-    "version": "2.11.0-rc2",
+    "version": "2.11.1",
     "author": "ergunozyurt",
     "description": "Argo Workflows full CRDs generated with crd2pulumi",
     "scripts": {

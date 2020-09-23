@@ -1,0 +1,1 @@
+Argo Workflows full CRDs generated with crd2pulumi

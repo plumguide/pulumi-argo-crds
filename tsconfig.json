@@ -1,0 +1,30 @@
+{
+    "compilerOptions": {
+        "outDir": "bin",
+        "target": "es2016",
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "declaration": true,
+        "sourceMap": true,
+        "stripInternal": true,
+        "experimentalDecorators": true,
+        "noFallthroughCasesInSwitch": true,
+        "forceConsistentCasingInFileNames": true,
+        "strict": true
+    },
+    "files": [
+        "argoproj/index.ts",
+        "argoproj/v1alpha1/clusterWorkflowTemplate.ts",
+        "argoproj/v1alpha1/cronWorkflow.ts",
+        "argoproj/v1alpha1/index.ts",
+        "argoproj/v1alpha1/workflow.ts",
+        "argoproj/v1alpha1/workflowEventBinding.ts",
+        "argoproj/v1alpha1/workflowTemplate.ts",
+        "index.ts",
+        "provider.ts",
+        "types/index.ts",
+        "types/input.ts",
+        "types/output.ts",
+        "utilities.ts"
+    ]
+}
